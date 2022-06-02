@@ -1,0 +1,38 @@
+Chef is having a Knapsack which contains Mangoes of different weight. Let’s take an array knap[] of size N which contains {knap[0], knap[1], ………….., knap[n−1]} , where knap[i] denotes the weight of a mango i. Also, he wants to sell all these mangoes by packing all those in different Carry bag. The number of mangoes each Carry bag can hold is given in cb[] array of size M. cb[i] denotes the number of mangoes can a particular Carry bag carry. So, Chef will keep exactly cb[i] number of mangoes in ith Carry_bag.
+
+Note that {cb[0] + cb[1] + ….. + cb[m−1] = N}
+
+At the same time, he wants to fill the Carry bag in a different manner. He wants to fill all the Carry bag in such a way that the total sum of minimum and maximum weight of mangoes present in every Carry bag after packing is maximum. Chef wants to you to find the required sum.
+
+Input:
+
+The first line contains two integers N and M (1≤N≤105; 1≤M≤N) — the size of knap[] array and the size of cb[] array.
+The second line contains N integers a1, a2, …, an ($1 ≤ ai ≤ 10^5) — the weight of mangoes present in knapsack.
+The third line contains M integers c1, c2, …,cM ($1 ≤ ci ≤ n) — number of mangoes Chef will keep in each Carry bag.
+
+Output
+Print a single integer — the maximum sum.
+
+Sample Input 1
+4 2
+1 10 6 15
+1 3
+
+Sample Output 1
+41
+Explanation
+Chef should keep the greatest weight in the first Carry bag {15}. So, 15 is the minimum and 15 is the maximum & remaining unit of mangoes kept in the second Carry bag {1,6,10}. So 1 is the minimum and 10 is the maximum. So, the total sum = 15+15+1+10 = 41 which is the maximum.
+
+Sample Input 2
+4 4
+5 5 8 8
+1 1 1 1
+
+Sample Output 2
+52
+Author(s):	
+int_elligence2
+Tags:	Tags are hidden. Show temporarily
+Update this setting in edit profile
+
+
