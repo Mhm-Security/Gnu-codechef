@@ -20,7 +20,9 @@ Sample Input 1
 
 Sample Output 1
 41
-Explanation
+
+Explanation:
+
 Chef should keep the greatest weight in the first Carry bag {15}. So, 15 is the minimum and 15 is the maximum & remaining unit of mangoes kept in the second Carry bag {1,6,10}. So 1 is the minimum and 10 is the maximum. So, the total sum = 15+15+1+10 = 41 which is the maximum.
 
 Sample Input 2
@@ -30,9 +32,6 @@ Sample Input 2
 
 Sample Output 2
 52
-Author(s):	
-int_elligence2
-Tags:	Tags are hidden. Show temporarily
-Update this setting in edit profile
+
 
 
